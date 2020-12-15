@@ -1,6 +1,6 @@
 {
-  "homepage": "http://anakatech-kaykostadinov.github.io/mailsig",
-  "name": "mailsig",
+  "homepage": "https://netomediams.github.io/anakaMail",
+  "name": "anakamail",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
