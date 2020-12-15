@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/anakaMail/static/css/main.e2b848eb.chunk.css",
+    "main.js": "/anakaMail/static/js/main.b812558f.chunk.js",
+    "main.js.map": "/anakaMail/static/js/main.b812558f.chunk.js.map",
+    "runtime-main.js": "/anakaMail/static/js/runtime-main.6f238d28.js",
+    "runtime-main.js.map": "/anakaMail/static/js/runtime-main.6f238d28.js.map",
+    "static/css/2.33952032.chunk.css": "/anakaMail/static/css/2.33952032.chunk.css",
+    "static/js/2.1c99c192.chunk.js": "/anakaMail/static/js/2.1c99c192.chunk.js",
+    "static/js/2.1c99c192.chunk.js.map": "/anakaMail/static/js/2.1c99c192.chunk.js.map",
+    "static/js/3.627ea710.chunk.js": "/anakaMail/static/js/3.627ea710.chunk.js",
+    "static/js/3.627ea710.chunk.js.map": "/anakaMail/static/js/3.627ea710.chunk.js.map",
+    "index.html": "/anakaMail/index.html",
+    "static/css/2.33952032.chunk.css.map": "/anakaMail/static/css/2.33952032.chunk.css.map",
+    "static/css/main.e2b848eb.chunk.css.map": "/anakaMail/static/css/main.e2b848eb.chunk.css.map",
+    "static/js/2.1c99c192.chunk.js.LICENSE.txt": "/anakaMail/static/js/2.1c99c192.chunk.js.LICENSE.txt",
+    "static/media/header-logo.6e2ae94b.png": "/anakaMail/static/media/header-logo.6e2ae94b.png",
+    "static/media/nm.6bf4324a.jpg": "/anakaMail/static/media/nm.6bf4324a.jpg",
+    "static/media/np.aab4110e.jpg": "/anakaMail/static/media/np.aab4110e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f238d28.js",
+    "static/css/2.33952032.chunk.css",
+    "static/js/2.1c99c192.chunk.js",
+    "static/css/main.e2b848eb.chunk.css",
+    "static/js/main.b812558f.chunk.js"
+  ]
+}
