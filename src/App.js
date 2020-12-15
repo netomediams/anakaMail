@@ -86,7 +86,7 @@ function App() {
         <Editor data={data} setData={setData} />
         <section className="preview-col">
           <button className={`copy-btn ${btn.class}`} disabled={btn.class != '' ? true : false} onClick={copyToClipboard}>
-            <i className="far fa-copy"></i> {btn.message}
+            <i className={btn.class == '' ? 'far fa-copy' : 'fas fa-check'} ></i> {btn.message}
           </button>
           <div className='form-container'>
             {
