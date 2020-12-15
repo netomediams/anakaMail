@@ -21,7 +21,7 @@ function Editor(props) {
                 <div className="row">
                     <div className="form-group">
                         <label htmlFor="phone">Phone</label>
-                        <input name='phone' placeholder='phone' value={data.phone} onChange={e => setData({ ...data, phone: e.target.value })}></input>
+                        <input name='phone' placeholder='phone number' value={data.phone} onChange={e => setData({ ...data, phone: e.target.value })}></input>
                     </div>
                     <div className="form-group">
                         <label htmlFor="fax">Fax</label>
@@ -31,7 +31,7 @@ function Editor(props) {
                 <div className="row">
                     <div className="form-group">
                         <label htmlFor="website-name">Website name</label>
-                        <input name='website-name' placeholder='website-name' value={data.website.name} onChange={e => setData({ ...data, website: {...data.website, name: e.target.value} })}></input>
+                        <input name='website-name' placeholder='website name' value={data.website.name} onChange={e => setData({ ...data, website: {...data.website, name: e.target.value} })}></input>
                     </div>
                     <div className="form-group">
                         <label htmlFor="website-link">Website link</label>
@@ -45,17 +45,17 @@ function Editor(props) {
                     </div>
                     <div className="form-group">
                         <label htmlFor="facebook">Facebook</label>
-                        <input name='facebook' placeholder='facebook' value={data.social.fb.link} onChange={e => setData({ ...data, social: { ...data.social, fb: { ...data.social.fb, link: e.target.value } } })}></input>
+                        <input name='facebook' placeholder='facebook link' value={data.social.fb.link} onChange={e => setData({ ...data, social: { ...data.social, fb: { ...data.social.fb, link: e.target.value } } })}></input>
                     </div>
                 </div>
                 <div className="row">
                     <div className="form-group">
                         <label htmlFor="instagram">Instagram</label>
-                        <input name='instagram' placeholder='instagram' value={data.social.ig.link} onChange={e => setData({ ...data, social: { ...data.social, ig: { ...data.social.ig, link: e.target.value } } })}></input>
+                        <input name='instagram' placeholder='instagram link' value={data.social.ig.link} onChange={e => setData({ ...data, social: { ...data.social, ig: { ...data.social.ig, link: e.target.value } } })}></input>
                     </div>
                     <div className="form-group">
                         <label htmlFor="linkedin">LinkedIn</label>
-                        <input name='linkedin' placeholder='linkedin' value={data.social.linkedin.link} onChange={e => setData({ ...data, social: { ...data.social, linkedin: { ...data.social.linkedin, link: e.target.value } } })}></input>
+                        <input name='linkedin' placeholder='linkedin link' value={data.social.linkedin.link} onChange={e => setData({ ...data, social: { ...data.social, linkedin: { ...data.social.linkedin, link: e.target.value } } })}></input>
                     </div>
                 </div>
             </div>

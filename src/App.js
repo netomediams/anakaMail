@@ -43,6 +43,7 @@ function App() {
   const [selected, setSelected] = useState('nm');
 
   // copy button functionality
+  const [copied, setCopied] = useState('');
   const [btn, setBtn] = useState({
     class: '',
     message: 'Copy'
@@ -63,11 +64,14 @@ function App() {
       class: 'copy-btn--success',
       message: 'Copied to clipboard'
     });
+    setCopied('table--success');
+
     setTimeout(() => {
       setBtn({
         class: '',
         message: 'Copy'
       });
+      setCopied('');
     }, 2000);
 
   }, 200); // debounce timeout
@@ -89,14 +93,19 @@ function App() {
               (()=> {
                 switch (selected) {
                   case 'nm':
-                    return <ThemeNP1 name={selected} data={data} />
+                    return <ThemeNP1 data={data} copied={copied} />
                   case 'np':
-                    return <ThemeNP2 name={selected} data={data} />
+                    return <ThemeNP2 data={data} copied={copied} />
                   default:
                     break;
                 }
               })()
             }
+          </div>
+          <div style={{ maxWidth: '90vw', padding: '0 2em', textAlign: 'center'}}>
+            <p>
+              Note: Items may appear displaced. This preview is not representative of the signature's appearance in emails.
+            </p>
           </div>
         </section>
       </main>

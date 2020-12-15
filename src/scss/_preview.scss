@@ -3,10 +3,13 @@
 .preview-col{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
   .copy-btn{
     display: block;
-    background: #24272e;
+    background: #27aae1;
     color: whitesmoke;
     font-size: 1rem;
     margin: 2rem auto;
@@ -17,7 +20,7 @@
     cursor: pointer;
 
     &:hover, &:active {
-        background: #27aae1;
+        background: darken(#27aae1, 10);
     }
 
     &--success {
@@ -25,6 +28,7 @@
 
         &:hover, &:active {
             background: rgb(52, 199, 89);
+            cursor: default;
         }
     }
   }

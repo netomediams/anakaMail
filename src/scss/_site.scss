@@ -33,4 +33,9 @@ main {
 
 .table {
     box-shadow: 2px 2px 4px rgba(black, .2), -3px -3px 3px rgba(white, 1);
+    transition: all .3s ease;
+
+    &--success {
+        box-shadow: 0 0 10px rgb(52, 199, 89);
+    }
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Theme({data, click}) {
+function Theme({data, copied}) {
 
 //816px
     return (
 <table 
             id='table-content'
-            className="table" 
+            className={`table ${copied}`}
             style={{
             padding: '0 4em', 
             color: 'whitesmoke', 
@@ -76,7 +76,7 @@ function Theme({data, click}) {
                         </td>
                     </tr>
                 }
-                <tr>
+                <tr className='website-name'>
                     <td style={{width: '100%', verticalAlign: 'bottom',}}>
                         <a 
                         href={data.website.link}
