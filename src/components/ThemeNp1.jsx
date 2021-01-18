@@ -10,7 +10,7 @@ function Theme({data, copied}) {
             style={{
             padding: '0 4em', 
             color: 'whitesmoke', 
-            background: "url('https://raw.githubusercontent.com/anakatech-kaykostadinov/mailsig/gh-pages/static/media/nm.f7d08900.png')", 
+            background: "url('https://raw.githubusercontent.com/netomediams/anakaMail/main/src/images/nm.png')", 
             backgroundSize: 'cover', 
             backgroundRepeat: 'no-repeat', 
             width: '100vw', 
