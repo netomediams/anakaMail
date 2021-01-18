@@ -81,7 +81,7 @@ function App() {
   return (
     <div className="ms-main">
       <Header />
-      <ThemePicker selected={selected} setSelected={setSelected} />
+      {/* <ThemePicker selected={selected} setSelected={setSelected} /> */}
       <main>
         <Editor data={data} setData={setData} />
         <section className="preview-col">
