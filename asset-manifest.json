@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/anakaMail/static/css/main.e2b848eb.chunk.css",
-    "main.js": "/anakaMail/static/js/main.b812558f.chunk.js",
-    "main.js.map": "/anakaMail/static/js/main.b812558f.chunk.js.map",
+    "main.js": "/anakaMail/static/js/main.a0181fb6.chunk.js",
+    "main.js.map": "/anakaMail/static/js/main.a0181fb6.chunk.js.map",
     "runtime-main.js": "/anakaMail/static/js/runtime-main.6f238d28.js",
     "runtime-main.js.map": "/anakaMail/static/js/runtime-main.6f238d28.js.map",
     "static/css/2.33952032.chunk.css": "/anakaMail/static/css/2.33952032.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.33952032.chunk.css",
     "static/js/2.1c99c192.chunk.js",
     "static/css/main.e2b848eb.chunk.css",
-    "static/js/main.b812558f.chunk.js"
+    "static/js/main.a0181fb6.chunk.js"
   ]
 }
